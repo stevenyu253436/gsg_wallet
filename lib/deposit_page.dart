@@ -27,12 +27,12 @@ class DepositPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => const UsdtDepositPage()),
             );
           }),
-          _buildAssetItem('BTC', 'Bitcoin', 'assets/images/btc.png', () {
-            // TODO: Implement BTC action
-          }),
-          _buildAssetItem('ETH', 'Ethereum', 'assets/images/eth.png', () {
-            // TODO: Implement ETH action
-          }),
+          // _buildAssetItem('BTC', 'Bitcoin', 'assets/images/btc.png', () {
+          //   // TODO: Implement BTC action
+          // }),
+          // _buildAssetItem('ETH', 'Ethereum', 'assets/images/eth.png', () {
+          //   // TODO: Implement ETH action
+          // }),
         ],
       ),
     );

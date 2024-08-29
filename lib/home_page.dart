@@ -89,8 +89,8 @@ class _HomePageState extends State<HomePage> {
               children: [
                 _buildAssetItem('assets/images/usd.png', 'USD', 'US Dollars', 0.000000),
                 _buildAssetItem('assets/images/usdt.png', 'USDT', 'Tether', 0.000000),
-                _buildAssetItem('assets/images/btc.png', 'BTC', 'Bitcoin', 0.000000),
-                _buildAssetItem('assets/images/eth.png', 'ETH', 'Ethereum', 0.000000),
+                // _buildAssetItem('assets/images/btc.png', 'BTC', 'Bitcoin', 0.000000),
+                // _buildAssetItem('assets/images/eth.png', 'ETH', 'Ethereum', 0.000000),
               ],
             ),
           ),
